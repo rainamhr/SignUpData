@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1094888778503",
+    "project_id": "firebase-signupdata"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094888778503:android:add3b0eb7c6c8d11",
+        "android_client_info": {
+          "package_name": "com.study.signupdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094888778503-5tfdbovi4o5bqprhpl0lhi1gvs0dkdqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.study.signupdata",
+            "certificate_hash": "9179293414c19ac4a656fcb89c746a470ae508db"
+          }
+        },
+        {
+          "client_id": "1094888778503-nsrfe5j5l3boihn4po4g139dt0gvee1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJd3PvRmWOOVE4WUE09wtoATlUwV62lpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
