@@ -338,6 +338,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
         rv = (RecyclerView) findViewById(R.id.recycler_view);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         rv.setLayoutManager(linearLayoutManager);
+                    
     }
 
     private void add_gar(){
