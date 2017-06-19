@@ -3,6 +3,10 @@ package com.study.signupdata;
 
 import tellh.com.stickyheaderview_rv.adapter.DataBean;
 import tellh.com.stickyheaderview_rv.adapter.StickyHeaderViewAdapter;
+import android.provider.Settings.Secure;
+
+import static java.security.AccessController.getContext;
+
 
 /**
  * Created by $raina on $5/23/2017.
@@ -16,6 +20,16 @@ public class Member extends DataBean {
      String email;
      String added_by;
     public boolean shouldSticky;
+
+    Long tsLong = System.currentTimeMillis()/1000;
+    String ts = tsLong.toString();
+
+    private String timestamp() {
+        return ts;
+    }
+
+//    private String android_id = Secure.getString(get().getContentResolver(),
+//            Secure.ANDROID_ID);
 
     public String getAdded_by() {
         return added_by;

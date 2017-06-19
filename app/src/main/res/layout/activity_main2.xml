@@ -46,10 +46,10 @@
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent">-->
 
-        <tellh.com.stickyheaderview_rv.StickyHeaderView
-            android:id="@+id/stickyHeader"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <!--<tellh.com.stickyheaderview_rv.StickyHeaderView-->
+            <!--android:id="@+id/stickyHeader"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_view"
@@ -57,7 +57,7 @@
                 android:layout_height="match_parent">
 
             </android.support.v7.widget.RecyclerView>
-        </tellh.com.stickyheaderview_rv.StickyHeaderView>
+        <!--</tellh.com.stickyheaderview_rv.StickyHeaderView>-->
 
         <!--</android.support.v4.widget.SwipeRefreshLayout>-->
 

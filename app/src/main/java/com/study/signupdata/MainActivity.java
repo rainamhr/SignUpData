@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             GoogleSignInAccount acct = result.getSignInAccount();
             String m= acct.getEmail();
             Log.e("show", "email: " + m);
-       Intent intent = new Intent(this, TestActivity.class);
+       Intent intent = new Intent(this, Main2Activity.class);
             intent.putExtra("email",m);
         startActivity(intent);
         Log.e("display", "display name: " + acct.getDisplayName());

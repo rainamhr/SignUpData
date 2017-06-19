@@ -20,17 +20,22 @@ public class ItemHeaderViewBinder extends ViewBinder<ItemHeader, ItemHeaderViewB
     }
     @Override
     public void bindView(StickyHeaderViewAdapter adapter, ViewHolder holder, int position, ItemHeader entity) {
-        holder.tvPrefix.setText(entity.getPrefix());
+        holder.headerid.setText(entity.getPrefixid());
+        holder.headername.setText(entity.getPrefixname());
+        holder.headeraddress.setText(entity.getPrefixddress());
     }
     @Override
     public int getItemLayoutId(StickyHeaderViewAdapter adapter) {
         return R.layout.header;
     }
     static class ViewHolder extends ViewBinder.ViewHolder {
-        TextView tvPrefix;
+        TextView headerid, headername, headeraddress;
         public ViewHolder(View rootView) {
             super(rootView);
-            this.tvPrefix = (TextView) rootView.findViewById(R.id.tv_prefix);
+            this.headerid = (TextView) rootView.findViewById(R.id.tv_prefix);
+            this.headername = (TextView) rootView.findViewById(R.id.tv_prefix1);
+            this.headeraddress = (TextView) rootView.findViewById(R.id.tv_prefix2);
+
         }
     }
 }

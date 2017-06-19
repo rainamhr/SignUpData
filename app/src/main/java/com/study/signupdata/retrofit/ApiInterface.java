@@ -19,7 +19,6 @@ public interface ApiInterface {
     @GET("test_get")
     Call<MemberResult> getList();
 
-
     @FormUrlEncoded
     @POST("test_add")
     Call<Member>insertInfo(@Field("id")String id,

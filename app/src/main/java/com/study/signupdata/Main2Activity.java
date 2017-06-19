@@ -101,7 +101,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         floatingActionButton.setOnClickListener(SAVECLICK);
         //swipeRefresh();
         get();
-        post();
+        //post();
     }
 
     private View.OnClickListener SAVECLICK = new OnClickListener() {

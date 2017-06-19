@@ -39,10 +39,10 @@ public class dbHelper extends SQLiteOpenHelper{
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
-    public void insertMembers(ContentValues cv) {
+    /*public void insertMembers(ContentValues cv) {
         getWritableDatabase().insert("student_detail","",cv);
 
-    }
+    }*/
 
     public long insertMembers(Member member){
         ContentValues cv= new ContentValues();
